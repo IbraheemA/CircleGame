@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfea16728a94c5a4fae28be16319ccde, type: 3}
+  m_Name: New Entity Config
+  m_EditorClassIdentifier: 
+  OptionalParentConfig: {fileID: 0}
+  Name: Player
+  EntityType: 1
+  ControllerConfigs:
+  - {fileID: 11400000, guid: 35768cf9fe2efb140ac8bbb1d39bf037, type: 2}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 4d443e53646cfe8438ecc723dad5b4b8, type: 2}
+  - {fileID: 11400000, guid: 4358610d47fee054d8ae7d3d08f4ddef, type: 2}
+  LinkedObject: {fileID: 1241807390514191919, guid: 97e23fc2941723145b9c3fca9bae233d,
+    type: 3}
+  MaxHealth:
+    HasValue: 1
+    Value: 20
+  MoveSpeed:
+    HasValue: 1
+    Value: 0.4

@@ -1,0 +1,2 @@
+Controllers and states are tightly coupled; the state machine is an "engine" that runs a controller.
+Different controllers will operate based on different states, or no state at all.

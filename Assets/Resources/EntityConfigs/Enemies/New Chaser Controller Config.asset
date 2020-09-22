@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9834a0882f91cb642a2839be369c6b2f, type: 3}
+  m_Name: New Chaser Controller Config
+  m_EditorClassIdentifier: 
+  chaseDistance: 12
+  aggroRange: 7
+  wanderSpeedMultiplier: 0.4
+  framesSpentWandering: 120
+  framesSpentStillAfterWander: 60
+  wanderingFramesVariance: 60
+  startingCounter: 0
+  targettingType: 0
+  targetEntityType: 1
